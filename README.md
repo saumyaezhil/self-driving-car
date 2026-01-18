@@ -1,13 +1,44 @@
-Self-Driving Car using Reinforcement Learning (CARLA)
+Autonomous Driving using Reinforcement Learning
 
-This project implements a reinforcement learning-based autonomous driving pipeline using the CARLA simulator.
-The system is designed with a modular environment architecture and a Gym-compatible interface to support PPO training.
+This project implements a reinforcement learning–based autonomous driving agent using Proximal Policy Optimization (PPO).
+The focus is on machine learning concepts such as policy optimization, reward design, and training stability rather than simulator realism.
 
-Current progress:
-- Virtual environment setup
-- CPU-based PyTorch configuration
-- Custom CARLA environment (mocked)
-- Gym/Gymnasium wrapper
-- PPO training pipeline (tested with dummy environment)
+A lightweight driving simulator (Highway-Env) is used to enable efficient RL training on limited hardware.
 
-CARLA integration is in progress.
+Key Concepts
+
+Reinforcement Learning (RL)
+
+Markov Decision Process (MDP)
+
+Proximal Policy Optimization (PPO)
+
+Actor–Critic Architecture
+
+Reward Shaping
+
+Training Stability and Convergence
+
+Tech Stack
+
+Python
+
+PyTorch (CPU)
+
+Stable-Baselines3
+
+Gymnasium
+
+Highway-Env
+
+Ubuntu (Linux)
+
+Status
+
+PPO training pipeline implemented
+
+Environment wrapper completed
+
+Training runs successfully
+
+Further analysis and experiments in progress
